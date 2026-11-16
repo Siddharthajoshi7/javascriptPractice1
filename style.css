@@ -10,25 +10,16 @@ html,body{
 }
 body{
     display:flex;
-    justify-content:center;
     align-items:center;
-    flex-direction:column;
-    gap:20px;
+    justify-content:center;
 }
-#box{
-    height:300px;
-    width:300px;
-    background-color:blue;
-    border-radius:10px;
+h1{
+    height: 100px;
+    width: 200px;
+    font-size:60px;
+    background-color: #bb2727;
+    text-align: center;
+    padding :25px 10px;
+    
 
-}
-button{
-    padding:10px 20px;
-    border:none;
-    background-color:green;
-    border-radius:5px;
-    cursor:pointer;
-}
-button:active{
-    scale:0.75;
 }

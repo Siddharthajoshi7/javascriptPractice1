@@ -1,10 +1,6 @@
-var btn =document.querySelector("button");
-var box =document.querySelector("#box");
+var body= document.body
+var h1= document.querySelector("h1");
 
-btn.addEventListener("click",function(){
-    var c1 = Math.floor(Math.random()*256);
-    var c2 = Math.floor(Math.random()*256);
-    var c3 = Math.floor(Math.random()*256);
-
-    box.style.backgroundColor = `rgb(${c1},${c2},${c3})`;
+body.addEventListener("keydown",(val)=>{
+    h1.innerHTML=val.code;
 })
